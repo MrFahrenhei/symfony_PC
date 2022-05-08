@@ -84,8 +84,11 @@ class MedicosController extends AbstractController
             return new Response('', Response::HTTP_NOT_FOUND);
         }
 
-        $chosedExisted->crm = $medicoEscolhido->crm;
-        $chosedExisted->nome = $medicoEscolhido->nome;
+        $chosedExisted
+            ->setCrm($medicoEscolhido->getCrm())
+            ->setNome($medicoEscolhido->getNome())
+            ->setEspecialidade($medicoEscolhido->getEspecialidade());
+
 
         $this->entityManager->flush($chosedExisted);
 
