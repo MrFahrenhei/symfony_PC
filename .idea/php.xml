@@ -56,6 +56,8 @@
       <path value="$PROJECT_DIR$/APInoPC/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/APInoPC/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/APInoPC/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/APInoPC/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/APInoPC/vendor/symfony/maker-bundle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
